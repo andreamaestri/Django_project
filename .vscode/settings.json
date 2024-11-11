@@ -13,6 +13,6 @@
       "**/CVS": true
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "One Dark Pro Darker",
+   "workbench.colorTheme": "Github Catppuccin Dark Mix",
    "terminal.integrated.gpuAcceleration": "canvas",
 }
