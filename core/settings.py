@@ -131,9 +131,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-
+STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-STATIC_URL = "static/"
+
 
 STORAGES = {
     # Enable WhiteNoise's GZip and Brotli compression of static assets:
@@ -151,6 +151,3 @@ WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-# Enable WhiteNoise compression and caching support
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
